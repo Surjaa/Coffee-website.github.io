@@ -11,7 +11,7 @@ export default function FluidShowcase() {
       <div className="container">
         <motion.div className={s.fluidWrap} {...rise(reduce)}>
           <FluidGlass
-            src="/images/homeImg2.jpg"
+            src="images/homeImg2.jpg"
             alt="Coffee drinks served in a cafe, seen through a glass lens"
             reduce={reduce}
             className={s.fluidCanvas}
