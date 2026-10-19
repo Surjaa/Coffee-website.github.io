@@ -119,10 +119,10 @@ export function Hero() {
                 animate={{ opacity: 1, rotateX: 0, y: 0 }}
                 transition={{ duration: 1.1, ease, delay: 0.2 }}
               >
-                <img className={s.cardImg} src="/images/homeImg1.jpg" alt="Coffee beans spilling out of a white cup" />
+                <img className={s.cardImg} src="images/homeImg1.jpg" alt="Coffee beans spilling out of a white cup" />
                 <motion.img
                   className={s.floatCup}
-                  src="/images/menuImg1.png"
+                  src="images/menuImg1.png"
                   alt=""
                   aria-hidden="true"
                   style={{ translateZ: 90 }}
@@ -193,8 +193,8 @@ export function About() {
         <div className="row g-5 align-items-center">
           <div className="col-12 col-lg-5">
             <div className={s.aboutImgWrap}>
-              <motion.img className={s.aboutImg} src="/images/aboutImg.jpg" alt="Espresso machine pouring a shot" style={{ y: reduce ? 0 : yImg }} />
-              <motion.img className={s.aboutRound} src="/images/menuImg3.png" alt="Cappuccino with latte art" style={{ y: reduce ? 0 : yRound }} />
+              <motion.img className={s.aboutImg} src="images/aboutImg.jpg" alt="Espresso machine pouring a shot" style={{ y: reduce ? 0 : yImg }} />
+              <motion.img className={s.aboutRound} src="images/menuImg3.png" alt="Cappuccino with latte art" style={{ y: reduce ? 0 : yRound }} />
             </div>
           </div>
           <div className="col-12 col-lg-6 offset-lg-1">
@@ -338,7 +338,7 @@ export function Hours() {
 export function Brands() {
   const s = useStyles();
   const reduce = useReducedMotion();
-  const logos = ["/images/brandImg1.png", "/images/brandImg2.png", "/images/brandImg3.png", "/images/brandImg4.png", "/images/brandImg5.png"];
+  const logos = ["images/brandImg1.png", "images/brandImg2.png", "images/brandImg3.png", "images/brandImg4.png", "images/brandImg5.png"];
   const row = [...logos, ...logos];
   return (
     <section className={s.brands} aria-label="Our trusted brands">
