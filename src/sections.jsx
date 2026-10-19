@@ -18,10 +18,10 @@ const HOURS = [
 ];
 
 const DISHES = [
-  { name: "Cappuccino", img: "/images/menuImg1.png", alt: "Cappuccino with latte art" },
-  { name: "Espresso Roast", img: "/images/menuImg2.png", alt: "Dark coffee in a white cup" },
-  { name: "Latte Art Special", img: "/images/menuImg3.png", alt: "Cappuccino with bunny latte art" },
-  { name: "Americano", img: "/images/menuImg4.png", alt: "Black coffee in a teal cup" },
+  { name: "Cappuccino", img: "images/menuImg1.png", alt: "Cappuccino with latte art" },
+  { name: "Espresso Roast", img: "images/menuImg2.png", alt: "Dark coffee in a white cup" },
+  { name: "Latte Art Special", img: "images/menuImg3.png", alt: "Cappuccino with bunny latte art" },
+  { name: "Americano", img: "images/menuImg4.png", alt: "Black coffee in a teal cup" },
 ];
 
 const REVIEWS = [
@@ -29,7 +29,7 @@ const REVIEWS = [
   "Your coffee hits the spot every time. Thank you for the experience of pure, delicious coffee masterfully roasted! I will never purchase any other and I will spread the word!",
   "Your coffee hits the spot every time. Thank you for the experience of pure, delicious coffee masterfully roasted! I will never purchase any other and I will spread the word!",
 ];
-const REVIEW_IMGS = ["/images/profileImg2.jpg", "/images/profileImg1.jpg", "/images/profileImg3.jpg"];
+const REVIEW_IMGS = ["images/profileImg2.jpg", "images/profileImg1.jpg", "images/profileImg3.jpg"];
 
 /* ---------------- Hero: 3D tilt card, cursor glow, magnetic CTA, split-word reveal ---------------- */
 export function Hero() {
